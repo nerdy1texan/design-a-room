@@ -1,0 +1,9 @@
+from google.colab import drive
+drive.mount('/content/drive')
+!ls
+%cd /content/drive/MyDrive/Nerdy Stuff/room_designer
+import os
+os.chdir("/content/drive/MyDrive/Nerdy Stuff/room_designer")
+!ls
+os.getcwd()
+!git clone https://github.com/jsarchibald/room-designer
